@@ -70,4 +70,78 @@ public class Student{
     }
   
 
+}////////////////////////02
+
+public class hw02 {
+    public static void main(String[] args) {
+      Book book1=new Book();
+      book1.setName("WONDERLAND");
+      System.out.println(book1.getName());
+      book1.setPage("506");
+      System.out.println(book1.getPage());
+      book1.setPrice("399");
+      System.out.println(book1.getPrice());
+      book1.setYear("47");
+      System.out.println(book1.getYear());
+      book1.setPaper("thin");
+      System.out.println(book1.getPaper());
+      book1.showInfo("86");
+      System.out.println(book1.show());
+        
+       
+    }
 }
+////////////////Book.java
+public class Book{
+    private String name,page,price,year,paper,showinfo;
+    void setName(String setname){
+        this.name=setname;
+    }
+    String getName(){
+        return name;
+    }
+
+
+    void setPage(String setpage){
+        this.page=setpage;
+    }
+    String getPage(){
+        return page;
+    }
+
+
+
+    void setPrice(String setprice){
+        this.price=setprice;
+    }
+    String getPrice(){
+        return price;
+    }
+
+
+
+    void setYear(String setyear){
+        this.year=setyear;
+    }
+    String getYear(){
+        return year;
+    }
+
+
+    void setPaper(String setpaper){
+        this.paper=setpaper;
+    }
+    String getPaper(){
+        return paper;
+    }
+    void showInfo(String showinfo){
+        this.showinfo=showinfo;
+    }
+    String show(){
+        return name+" "+page+" "+price+" "+year+" "+paper;
+        
+    }
+  
+
+}
+
