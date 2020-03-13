@@ -145,3 +145,157 @@ public class Book{
 
 }
 
+//////////////
+public class hw01 {
+    public static void main(String[] args) {
+      Hero student1=new Hero();
+      student1.setName("Roy");
+      System.out.println(student1.getName());
+      Hero student2=new Hero();
+      student2.setTall("188");
+      System.out.println(student2.getTall());
+      Hero student3=new Hero();
+      student3.setKg("75");
+      System.out.println(student3.getKg());
+      Hero student4=new Hero();
+      student4.setYear("24");
+      System.out.println(student4.getYear());
+      Hero student5=new Hero();
+      
+      student5.showInfo("Roy 188 75 24");
+
+
+      System.out.println(student5.shownInfo());
+        
+       
+    }
+}
+/////////
+public class Hero{
+    private String name,tall,kg,year,year1,info;
+    void setName(String setname){
+        this.name=setname;
+    }
+    String getName(){
+        return name;
+    }
+
+
+    void setTall(String settall){
+        this.tall=settall;
+    }
+    String getTall(){
+        return tall;
+    }
+
+
+
+    void setKg(String setkg){
+        this.kg=setkg;
+    }
+    String getKg(){
+        return kg;
+    }
+
+
+
+    void setYear(String setyear){
+        this.year=setyear;
+    }
+    String getYear(){
+        return year;
+    }
+
+    void setYea1r(String setyear1){
+        this.year1=setyear1;
+    }
+    String getYear1(){
+        return year1;
+    }
+
+
+    
+    void showInfo(String showinfo){
+        this.info=showinfo;
+    }
+    String shownInfo(){
+        return info;
+        
+    }
+}
+///////////////
+public class hw02 {
+    public static void main(String[] args) {
+        Chess student1=new Chess();
+      student1.setName("兵");
+      System.out.println(student1.getName());
+      Chess student2=new Chess();
+      student2.setColor("red");
+      System.out.println(student2.getColor());
+      Chess student3=new Chess();
+      student3.setWalk("直走");
+      System.out.println(student3.getWalk());
+      Chess student4=new Chess();
+      student4.setTeam("winner");
+      System.out.println(student4.getTeam());
+      Chess student5=new Chess();
+      
+      student5.showInfo("兵 red 直走 winner");
+      System.out.println(student5.shownInfo());
+        
+       
+    }
+}
+//////////////////////
+public class Chess{
+    private String name,color,walk,team,team1,info;
+    void setName(String setname){
+        this.name=setname;
+    }
+    String getName(){
+        return name;
+    }
+
+
+    void setColor(String setcolor){
+        this.color=setcolor;
+    }
+    String getColor(){
+        return color;
+    }
+
+
+
+    void setWalk(String setwalk){
+        this.walk=setwalk;
+    }
+    String getWalk(){
+        return walk;
+    }
+
+
+
+    void setTeam(String setteam){
+        this.team=setteam;
+    }
+    String getTeam(){
+        return team;
+    }
+
+    void setTea1m(String setteam1){
+        this.team1=setteam1;
+    }
+    String getTeam1(){
+        return team1;
+    }
+
+
+    
+    void showInfo(String showinfo){
+        this.info=showinfo;
+    }
+    String shownInfo(){
+        return info;
+        
+    }
+}
